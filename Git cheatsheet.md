@@ -1,4 +1,5 @@
-<h2 style="font-weight: normal">Create new git remote</h1>
+## Create new git remote
+
 You know how to create the token, once you have done that, execute the following
 
     git remote remove origin                                           # To remove preexisting remote named origin
@@ -6,23 +7,18 @@ You know how to create the token, once you have done that, execute the following
     git push origin main                                               # if you want to push to main branch
     
     
-<h2 style="font-weight: normal">Create a .gitignore file</h1>
+## Create a .gitignore file
+
 You go to the folder and open the terminal there. Then you type
 
     touch .gitignore
 That's a tada
 
 
+## Write to .gitignore file
 
-<h2 style="font-weight: normal">Write to .gitignore file</h1>
 We echo the commands. Make sure your terminal is currently at the folder where .gitignore file is 
 
     echo ".ipynb_checkpoints" >> .gitignore
     
 That's another tada!!!
-
-<h2 style="font-weight: normal">Undoing Your Last Commit (That Has Not Been Pushed)</h1>
-You reset it.
-    git reset --soft HEAD~
-
-Now go make another mistake to try reset again.
