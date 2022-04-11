@@ -26,3 +26,11 @@ You reset it.
     git reset --soft HEAD~
 
 Now go make another mistake to try reset again.
+
+
+
+<h2 style="font-weight: normal">Reverting it back</h1>
+You reset it.
+    git revert head
+
+I don't dissapoint when it comes to mistakes
